@@ -1,6 +1,6 @@
 {
   "name": "@saashq/charts",
-  "version": "2.0.0-rc24",
+  "version": "2.0.0-rc25",
   "main": "dist/saashq-charts.esm.js",
   "module": "dist/saashq-charts.esm.js",
   "browser": "dist/saashq-charts.umd.js",
