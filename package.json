@@ -1,6 +1,6 @@
 {
-  "name": "@saashq/charts",
-  "version": "2.0.0-rc25",
+  "name": "saashq-charts",
+  "version": "2.0.0-rc23",
   "main": "dist/saashq-charts.esm.js",
   "module": "dist/saashq-charts.esm.js",
   "browser": "dist/saashq-charts.umd.js",
@@ -11,9 +11,6 @@
   "directories": {
     "doc": "docs"
   },
-  "publishConfig": {
-    "access": "public"
-  },  
   "files": [
     "src",
     "dist"
@@ -32,7 +29,7 @@
     "js",
     "charts"
   ],
-  "author": "Saashq",
+  "author": "Prateeksha Singh",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/saashqdev/charts/issues"
@@ -49,5 +46,8 @@
     "rollup-plugin-postcss": "^3.1.3",
     "rollup-plugin-scss": "^2.5.0",
     "rollup-plugin-terser": "^6.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^9.0.0"
   }
 }

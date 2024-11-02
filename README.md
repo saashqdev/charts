@@ -3,25 +3,25 @@
 ### Contents
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
+* [Contribute](https://saashq.org/charts/docs/contributing)
 
 #### Installation
 * Install via [`npm`](https://www.npmjs.com/get-npm):
 
   ```sh
-  $ npm install @saashq/charts
+  $ npm install saashq-charts
   ```
 
   and include in your project:
   ```js
-  import { Chart } from "@saashq/charts"
+  import { Chart } from "saashq-charts"
   ```
 
   ...or include following for es-modules(eg:vuejs):
   ```js
-  import { Chart } from '@saashq/charts/dist/saashq-charts.esm.js'
+  import { Chart } from 'saashq-charts/dist/saashq-charts.esm.js'
   // import css
-  import '@saashq/charts/dist/saashq-charts.min.css'
+  import 'saashq-charts/dist/saashq-charts.min.css'
   ```
 
 * ...or include within your HTML
@@ -73,6 +73,4 @@ const chart = new saashq.Chart("#chart", {  // or a DOM element,
 })
 ```
 
-#### License
-This repository has been released under the [MIT License](LICENSE)
 
